@@ -8,7 +8,7 @@ hen213b.js
 hen213b.png
 img.jpg
 index.html
-int64.js
+webkit/int64.js
 jb.js
 linux-1gb.js
 linux1gb.png
@@ -17,7 +17,8 @@ linux3gb.png
 mira.js
 netcat.js
 payload.html
-ps4.js
-utils.js
+webkit/ps4.js
+webkit/utils.js
+webkit/index.html
 toolbox.js
 toolbox.png
