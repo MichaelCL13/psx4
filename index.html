@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
-<title>PS4 7.55 JB ULTIMATE MichaelCL13</title>
+<title>PS4 7.55 host 1.2 MichaelCL13</title>
 <style>
 html, body {
 background-image: url('img.jpg');
@@ -69,7 +69,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Ins
 document.cookie = 'kex=1';
 </script>
 </head>
-<h1 id=msgs>PS4 7.55 JB ULTIMATE MichaelCL13</h1>
+<h1 id=msgs>PS4 7.55 host 1.2 MichaelCL13</h1>
 <hr>
 <br>
 <h1 style="font-size:28px;text-align:center;text-shadow: 0.1em 0.1em 0.2em black;color:white">Experimentará problemas de memoria insuficientes en el navegador (debe insistir)</h1>
@@ -82,21 +82,26 @@ document.cookie = 'kex=1';
 <br>
 <button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_hen213b()> <img src="hen213b.png"></a></td>
 <br>
+<br>
+<button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_mira()> <img src="mira.png"></a></td>
+<br>
+<button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_dumper()> <img src="dumper.png"></a></td>
+<br>
+<br>
 <button class="btn" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen()> <img src="1.png"></a></td>
-<br>
-<br>
-<button class="btn" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_toolbox()> <img src="toolbox.png"></a></td>
 <br>
 <br>
 <button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_linux1gb()> <img src="linux1gb.png"></a></td>
 <br>
-<br>
 <button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_linux3gb()> <img src="linux3gb.png"></a></td>
+<br>
+<br>
+<br>
 <br>
 </div>
 <script>
 function pagetitle(){
-document.getElementById("msgs").innerHTML = "PS4 7.55 JB ULTIMATE MichaelCL13";
+document.getElementById("msgs").innerHTML = "PS4 7.55 host 1.2 MichaelCL13";
 }
 
 function load_goldhen(){
@@ -106,11 +111,18 @@ function load_goldhen(){
         link.href = 'payload.html#f=goldhen-755.js';
         link.click();
 }
-function load_toolbox(){
+function load_dumper(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
-        link.href = 'payload.html#f=toolbox.js';
+        link.href = 'payload.html#f=app-dumper.js';
+        link.click();
+}
+function load_mira(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=mira-755.js';
         link.click();
 }
 function load_hen213b(){

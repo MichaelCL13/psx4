@@ -2,23 +2,25 @@ CACHE MANIFEST
 # v1.4
 
 1.png
+app-dumper.js
 blob.js
+dumper.png
+frontend.js
 goldhen-755.js
 hen213b.js
 hen213b.png
 img.jpg
 index.html
-webkit/int64.js
+int64.js
 jb.js
 linux-1gb.js
 linux1gb.png
 linux-3gb.js
 linux3gb.png
 mira.js
+mira-755.js
+mira.png
 netcat.js
 payload.html
-webkit/ps4.js
-webkit/utils.js
-webkit/index.html
-toolbox.js
-toolbox.png
+ps4.js
+utils.js
